@@ -9,3 +9,11 @@ __pycache__/
 coverage/
 *.log
 .cache/
+
+# Secrets — never commit. Keys live in ~/.config/claudeprojects/keys.env
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
